@@ -17,13 +17,20 @@ To write a Python program to build the given expression tree and print the inord
 ---
 
 ## PROGRAM:
+~~~
+name: D Dharshini priya
+reg.no:212223090004
 
-```
-WRITE YOUR CODE
-```
+from binarytree import build,Node
+x=['*',4,'-',5,'+',2,7]
+t=build(x)
+print(t.inorder)
+print(t.postorder)
+~~~
 
 ## OUTPUT
-```
-```
+<img width="861" height="111" alt="image" src="https://github.com/user-attachments/assets/ffd9a9c7-2365-47bb-871c-9e3f80cd5c2a" />
+
 
 ## RESULT
+Thus the program is created and verified.
